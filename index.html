@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tesla</title>
+    <!-- fontawsome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- tailwind -->
+    <link rel="stylesheet" href="output.css" />
+  </head>
+  <body>
+    <!--! Header  -->
+    <header
+      class="sticky top-0 w-full bg-[#ecd9aa] max-[900px]:h-16 h-12 flex max-[900px]:flex-col max-[900px]:gap-1 max-[900px]:text-[14px] flex-row justify-center items-center gap-2"
+    >
+      <span class="font-semibold">Inventory Model Y Available Now</span>
+      <span
+        class="flex max-[900px]:gap-2 gap-4 justify-center items-center h-[10px]"
+        >Explore Reduced Pricing
+        <a
+          href=""
+          class="min-[900px]:bg-black max-[900px]:px-0 max-[900px]:py-0 max-[900px]:text-black max-[900px]:text-[14px] max-[900px]:font-normal max-[900px]:underline max-[900px]:decoration-solid text-zinc-200 font-bold text-[11px] h-8 px-3 py-1 rounded-md flex justify-center items-center"
+          >View Inventory</a
+        >
+      </span>
+    </header>
+    <!--! Fixed footer -->
+    <section
+      class="foot fixed bottom-0 w-full h-12 bg-white rounded-sm flex justify-center items-center font-semibold text-gray-800 text-[18px]"
+    >
+      <a href="" class="text-center">
+        <i class="fa-solid fa-dharmachakra text-blue-600 pr-2"></i>
+        Schedule a Drive Today
+      </a>
+    </section>
+    <!--! Landing -->
+    <section
+      id="landing"
+      class="min-h-[90vh] bg-[url(./asset/landing-bg.avif)] bg-cover bg-center"
+    >
+      <!--? nav and logoes  -->
+      <div class="text-white px-10 h-12 flex justify-between items-center">
+        <!--? logo -->
+        <div class="logo w-[10%]">
+          <svg
+            class="tds-icon tds-icon-logo-wordmark tds-site-logo-icon"
+            viewBox="0 0 342 35"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill="white"
+              d="M0 .1a9.7 9.7 0 0 0 7 7h11l.5.1v27.6h6.8V7.3L26 7h11a9.8 9.8 0 0 0 7-7H0zm238.6 0h-6.8v34.8H263a9.7 9.7 0 0 0 6-6.8h-30.3V0zm-52.3 6.8c3.6-1 6.6-3.8 7.4-6.9l-38.1.1v20.6h31.1v7.2h-24.4a13.6 13.6 0 0 0-8.7 7h39.9v-21h-31.2v-7zm116.2 28h6.7v-14h24.6v14h6.7v-21h-38zM85.3 7h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7m0 13.8h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7m0 14.1h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7M308.5 7h26a9.6 9.6 0 0 0 7-7h-40a9.6 9.6 0 0 0 7 7"
+            ></path>
+          </svg>
+        </div>
+        <!--? nav  -->
+        <nav class="w-[35%] font-semibold">
+          <ul class="flex justify-between text-[14px]">
+            <li
+              class="rounded-md px-3 py-1 hover:bg-gray-300 flex items-center justify-center"
+            >
+              <a href="">Vehices</a>
+            </li>
+            <li
+              class="rounded-md px-3 py-1 hover:bg-gray-300 flex items-center justify-center"
+            >
+              <a href="">Energy</a>
+            </li>
+            <li
+              class="rounded-md px-3 py-1 hover:bg-gray-300 flex items-center justify-center"
+            >
+              <a href="">Charging</a>
+            </li>
+            <li
+              class="rounded-md px-3 py-1 hover:bg-gray-300 flex items-center justify-center"
+            >
+              <a href="">Discover</a>
+            </li>
+            <li
+              class="rounded-md px-3 py-1 hover:bg-gray-300 flex items-center justify-center"
+            >
+              <a href="">Shop</a>
+            </li>
+          </ul>
+        </nav>
+        <!--? icons  -->
+        <div class="global text-white text-xl flex justify-between w-[8%]">
+          <i
+            class="fa-regular fa-circle-question p-2 rounded-b-sm hover:bg-[#4b749b]"
+          ></i>
+          <i class="fa-solid fa-globe p-2 rounded-b-sm hover:bg-[#4b749b]"></i>
+          <i
+            class="fa-regular fa-circle-user p-2 rounded-b-sm hover:bg-[#4b749b]"
+          ></i>
+        </div>
+      </div>
+
+      <div
+        id="landing-content"
+        class="text-white m-auto w-[40%] min-h-[300px] flex flex-col items-center gap-1"
+      >
+        <h1 class="text-7xl font-semibold pt-4">Model Y</h1>
+        <a href="" class="text-5xl font-semibold pb-3 border-b-1"
+          >$299/mo Leasing</a
+        >
+        <h3 class="text-xl font-semibold">From $31,4901 After Est. Savings</h3>
+        <div class="w-full flex gap-4 pt-4 text-center">
+          <a
+            href=""
+            class="w-[45%] h-10 rounded-md flex justify-center items-center font-semibold bg-blue-500"
+            >Order Now</a
+          >
+          <a
+            href=""
+            class="w-[45%] h-10 rounded-md flex justify-center items-center font-semibold bg-white text-black"
+            >Learn More</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!--! car-1  -->
+    <section
+      class="h-[90vh] pb-8 pt-12 flex flex-col justify-between items-center bg-[url(./asset/car-1.avif)] bg-cover bg-center text-white"
+    >
+      <div class="flex flex-col justify-center items-center font-semibold">
+        <h1 class="text-6xl">New Model Y</h1>
+        <h2 class="text-2xl">Deliveries Begin in March</h2>
+      </div>
+
+      <div class="flex gap-4 font-semibold">
+        <a href="" class="bg-blue-500 px-16 py-2 rounded-md">Order Now</a>
+        <a href="" class="bg-white text-black px-16 py-2 rounded-md"
+          >Learn More</a
+        >
+      </div>
+    </section>
+
+    <!--! car-2  -->
+    <section
+      class="h-[100vh] pb-8 pt-10 flex flex-col justify-between items-center bg-[url(./asset/car-2.avif)] bg-center bg-cover text-white"
+    >
+      <div class="flex flex-col justify-center items-center font-semibold">
+        <h1 class="text-6xl">Model 3</h1>
+        <a href="" class="text-4xl border-b-2 pb-1"
+          >$249/mo Lease Ending March 3</a
+        >
+        <h2 class="text-xl">From $29,9902 After Est. Savings</h2>
+      </div>
+
+      <div class="flex gap-4 font-semibold">
+        <a href="" class="bg-blue-500 px-16 py-2 rounded-md">Order Now</a>
+        <a href="" class="bg-white text-black px-16 py-2 rounded-md"
+          >Learn More</a
+        >
+      </div>
+    </section>
+    <!--! car-3 -->
+    <section
+      class="h-[100vh] pb-8 pt-6 flex flex-col justify-between items-center bg-[url(./asset/car-3.avif)] bg-center bg-cover text-white"
+    >
+    <div class="flex flex-col justify-center items-center font-semibold">
+       <img src="./asset/cybertruck-logo.webp" alt=""
+       class="mix-blend-screen w-3/4">
+        
+          <h1 class="text-4xl">$7,500 Federal Tax Credit Available</h1>
+
+          <a href="" class="text-4xl border-b-2 pb-1"
+            >$749/mo Leasing 3</a
+          >
+      </div>
+
+      <div class="flex gap-4 font-semibold text-stone-400">
+        <a href="" class="bg-black px-16 py-2 hover:opacity-85 border-t-2 border-gray-500">Order Now</a>
+        <a href="" class="bg-black  px-16 py-2 border border-gray-600 hover:opacity-85"
+          >Learn More</a
+        >
+      </div>
+    </section>
+
+    <section class="h-[1000px] bg-green-300"></section>
+  </body>
+</html>
+<!-- npx @tailwindcss/cli -i ./input.css -o ./output.css --watch -->
